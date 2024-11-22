@@ -1,0 +1,26 @@
+section{
+    margin-top:10px;
+    width:150px;
+    height: 50px;
+    background-color:#88c1d0;
+}
+
+/*
+1er media queries qui alignera les 4 blocs avec une resolution superieur a 1600px
+*/
+
+@media only screen and (width>=1600px){
+    body{
+        display: flex;
+    }
+    section{
+        width:200px;
+        height:200px;
+        margin-left:150px;
+        background-color: black;
+    }
+}
+
+/*
+2eme media queries qui affiche la 3eme et 4eme section en dessous des deux premieres sections
+*/
