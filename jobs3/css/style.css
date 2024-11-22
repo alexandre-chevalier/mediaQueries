@@ -14,7 +14,7 @@ section{
         display: flex;
     }
     section{
-        width:200px;
+        width:30%;
         height:200px;
         margin-left:150px;
         background-color: black;
@@ -24,3 +24,31 @@ section{
 /*
 2eme media queries qui affiche la 3eme et 4eme section en dessous des deux premieres sections
 */
+
+@media only screen and (768px <= width <= 1599px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 50%;
+    }
+    section{
+        margin-left:50px;
+        width:75%;
+        height:250px;
+    }
+}
+
+/*
+3eme media queries qui affiche en colonnes les differentes section du code html quand la resolution est inferieur a 768px
+*/
+
+@media only screen and (width <= 767px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        width:100%;
+        height:225px;
+        background-color: black;
+    }
+}
