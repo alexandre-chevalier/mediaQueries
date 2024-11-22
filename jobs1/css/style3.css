@@ -1,0 +1,10 @@
+@media only screen and (min-width:1280px) and (max-height:1680px){
+    body{
+        background-color: #275fa0;
+    }
+}
+
+/*
+media query qui change la couleur du background en fonction de la resolution
+quand le width est egale a 1280px et le height maximum egale a 1680px
+*/
