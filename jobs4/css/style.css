@@ -1,0 +1,20 @@
+img{
+    visibility: hidden;
+    width:15px;
+    height:15px;
+}
+.dis{
+    visibility: hidden;
+}
+
+@media only screen and (width<= 767px){
+    ul{
+        visibility: hidden;
+    }
+    img{
+        visibility: visible;
+    }
+    .dis:checked ~* .menu{
+        visibility: visible;
+    }
+}
