@@ -1,0 +1,11 @@
+@media only screen and (min-width:1680px) and (max-height:1920px){
+    body{
+        background-color:#ffca4b;
+    }
+}
+
+/*
+j'ai creer un media query qui applique une couleur au background quand la largeur est de 1680pixel et un hauteur de 1920pixel.
+cela remplace la couleur de base de la 1ere feuille de style
+
+*/
